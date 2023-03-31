@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: peachpuff;
+  font-size: 1.8rem;
+
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  margin: 8rem;
+}
+
+.one {
+  margin-bottom: 4rem;
+}
+
+.two {
+  margin-bottom: 4rem;
+}
+
+.three {
+  margin-bottom: 4rem;
+
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 1.8rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.three div {
+  text-align: center;
+}
+
+.four {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.four h1 {
+  margin-bottom: 2rem;
+}
+
+.four .item {
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.update {
+  display: none;
+}
